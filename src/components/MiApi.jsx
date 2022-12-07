@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Cards from './Cards'
 import Search from './Search'
 function MiApi() {
   const [info, setInfo] = useState({})
@@ -51,7 +50,7 @@ const listCharacters = !search
                 aria-label="Submit Search"
                 
                
-                >Vivo</button>
+                >Buscar</button>
 
 
 
